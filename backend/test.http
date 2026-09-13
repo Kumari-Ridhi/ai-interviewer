@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/evaluate-answer
+Content-Type: application/json
+
+{
+  "role": "Frontend Developer",
+  "difficulty": "Medium",
+  "question": "What is JavaScript?",
+  "answer": "JavaScript is a programming language used to make web pages interactive."
+}

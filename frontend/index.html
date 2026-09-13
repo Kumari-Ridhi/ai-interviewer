@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interviewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>AI Interviewer</h1>
+      <p>Practice. Improve. Succeed.</p>
+    </div>
+
+    <div class="form">
+
+      <label for="name">Your Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+      >
+
+      <label for="role">Interview Role</label>
+      <select id="role">
+        <option>Frontend Developer</option>
+        <option>Backend Developer</option>
+        <option>Full Stack Developer</option>
+        <option>HR Interview</option>
+        <option>Electrical Engineer</option>
+      </select>
+
+      <label for="difficulty">Difficulty</label>
+      <select id="difficulty">
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+      </select>
+
+      <label for="questions">Number of Questions</label>
+      <input
+        type="number"
+        id="questions"
+        value="5"
+        min="1"
+        max="20"
+      >
+
+      <button id="start-btn">
+        Start Interview
+      </button>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
