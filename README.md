@@ -1,35 +1,47 @@
-# AI Interviewer
+# 🤖 AI Interviewer
 
-An AI-powered interview practice web application that simulates technical interviews and evaluates user responses using Google Gemini AI.
+An AI-powered interview practice web application that helps candidates prepare for technical and HR interviews through dynamically generated questions, AI-based answer evaluation, scoring, and personalized feedback.
 
-## Features
+## 🚀 Features
 
-- User interview setup
-- Select role and difficulty level
-- Custom number of interview questions
-- AI-generated interview questions
-- AI-based answer evaluation
-- MongoDB database integration
-- Interview result page
-- Responsive and simple user interface
+- 👤 Candidate name and interview role selection
+- 🎯 Difficulty selection: Easy, Medium, Hard
+- 🔢 Custom number of interview questions
+- 🤖 AI-generated interview questions using Gemini
+- 🎤 Speech-to-text answer input
+- 🔊 Text-to-speech for interview questions
+- ⏱️ 60-second timer for each question
+- 🧠 AI-based answer evaluation
+- 📊 Score from 0–10 for each answer
+- 💬 Question-wise AI feedback
+- 🏆 Final interview score
+- 💾 Interview data stored in MongoDB
+- 🛡️ Error handling and API timeout protection
+- 🔄 Dynamic follow-up questions
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML
 - CSS
 - JavaScript
+- Web Speech API
+- LocalStorage
 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
+- REST API
+- CORS
 
 ### AI
 - Google Gemini API
 
-## Project Structure
+### Database
+- MongoDB
+- Mongoose
+
+## 📁 Project Structure
 
 ```text
 AI-INTERVIEWER/
@@ -45,7 +57,7 @@ AI-INTERVIEWER/
 │
 ├── backend/
 │   ├── models/
-│   │   └── interview.js
+│   │   └── Interview.js
 │   ├── server.js
 │   ├── package.json
 │   └── package-lock.json
