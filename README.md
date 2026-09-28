@@ -1,5 +1,7 @@
 # 🤖 AI Interviewer
 
+Live demo: https://kumari-ridhi.github.io/ai-interviewer/?
+
 An AI-powered interview practice web application that helps candidates prepare for technical and HR interviews through dynamically generated questions, AI-based answer evaluation, scoring, and personalized feedback.
 
 ## 🚀 Features
